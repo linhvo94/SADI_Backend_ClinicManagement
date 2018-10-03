@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VoThiCamLinh_s3655204_sadi_a2:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="VoThiCamLinh_s3655204_sadi_a2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="VoThiCamLinh_s3655204_sadi_a2:war exploded" />
+    </root>
+  </artifact>
+</component>

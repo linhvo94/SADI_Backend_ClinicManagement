@@ -1,0 +1,1315 @@
+Aug 23, 2018 5:40:57 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:40:57 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:40:57 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:40:57 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:40:57 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:40:57 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 25 2018 12:17:36 UTC
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.32.0
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1061-aws
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat8
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat8
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat8
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat8
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+Aug 23, 2018 5:40:58 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:40:58 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 950 ms
+Aug 23, 2018 5:40:58 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2018 5:40:58 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:40:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/sadi
+Aug 23, 2018 5:40:59 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Aug 23, 2018 5:40:59 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Thu Aug 23 05:40:59 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:40:59 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class config.AppConfig]
+Aug 23, 2018 5:41:01 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+Aug 23, 2018 5:41:01 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Aug 23, 2018 5:41:01 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.6.Final}
+Aug 23, 2018 5:41:01 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 23, 2018 5:41:01 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Aug 23, 2018 5:41:02 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+Aug 23, 2018 5:41:02 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+Aug 23, 2018 5:41:02 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+Aug 23, 2018 5:41:02 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+SEVERE: Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4819)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1091)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1830)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 28 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 54 more
+Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:936)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:824)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3788)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3742)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1410)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1844)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 64 more
+
+Aug 23, 2018 5:41:02 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Aug 23, 2018 5:42:36 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [94,069] milliseconds.
+Aug 23, 2018 5:42:36 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/sadi] startup failed due to previous errors
+Aug 23, 2018 5:42:36 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: The web application [sadi] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Aug 23, 2018 5:42:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/lib/tomcat8/webapps/sadi has finished in 97,530 ms
+Aug 23, 2018 5:42:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/ROOT
+Aug 23, 2018 5:42:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/lib/tomcat8/webapps/ROOT has finished in 72 ms
+Aug 23, 2018 5:42:36 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:42:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 97692 ms
+Aug 23, 2018 5:43:19 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:43:19 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 23, 2018 5:43:19 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:43:19 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:43:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:43:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:43:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:43:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:43:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:43:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 25 2018 12:17:36 UTC
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.32.0
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1061-aws
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat8
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat8
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat8
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat8
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+Aug 23, 2018 5:43:20 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:43:20 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 986 ms
+Aug 23, 2018 5:43:20 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2018 5:43:20 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:43:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/sadi
+Aug 23, 2018 5:43:21 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Aug 23, 2018 5:43:21 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Thu Aug 23 05:43:21 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:43:21 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class config.AppConfig]
+Aug 23, 2018 5:43:22 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+Aug 23, 2018 5:43:22 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Aug 23, 2018 5:43:23 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.6.Final}
+Aug 23, 2018 5:43:23 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 23, 2018 5:43:23 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Aug 23, 2018 5:43:23 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+Aug 23, 2018 5:43:23 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+Aug 23, 2018 5:43:23 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+Aug 23, 2018 5:43:23 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+SEVERE: Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4819)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1091)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1830)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 28 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 54 more
+Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:936)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:824)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3788)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3742)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1410)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1844)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 64 more
+
+Aug 23, 2018 5:43:23 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 25 2018 12:17:36 UTC
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.32.0
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1061-aws
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat8
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat8
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat8
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat8
+Aug 23, 2018 5:44:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+Aug 23, 2018 5:44:57 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:44:57 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 23, 2018 5:44:57 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 969 ms
+Aug 23, 2018 5:44:57 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2018 5:44:57 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:44:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/sadi
+Aug 23, 2018 5:44:57 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Aug 23, 2018 5:44:58 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Thu Aug 23 05:44:58 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:44:58 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class config.AppConfig]
+Aug 23, 2018 5:44:59 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+Aug 23, 2018 5:44:59 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Aug 23, 2018 5:44:59 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.6.Final}
+Aug 23, 2018 5:44:59 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 23, 2018 5:44:59 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Aug 23, 2018 5:45:00 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+Aug 23, 2018 5:45:00 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+Aug 23, 2018 5:45:00 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+Aug 23, 2018 5:45:00 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+SEVERE: Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4819)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1091)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1830)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 28 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 54 more
+Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:936)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:824)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3788)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3742)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1410)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1844)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 64 more
+
+Aug 23, 2018 5:45:00 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Aug 23, 2018 5:50:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:50:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:50:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:50:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:50:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:50:19 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 25 2018 12:17:36 UTC
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.32.0
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1061-aws
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat8
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat8
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat8
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat8
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+Aug 23, 2018 5:50:20 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:50:20 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 993 ms
+Aug 23, 2018 5:50:20 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2018 5:50:20 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:50:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /var/lib/tomcat8/webapps/VoThiCamLinh_s3655204_sadi_a2-1.0-SNAPSHOT.war
+Aug 23, 2018 5:50:21 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Aug 23, 2018 5:50:21 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Thu Aug 23 05:50:21 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:50:22 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class config.AppConfig]
+Aug 23, 2018 5:50:23 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+Aug 23, 2018 5:50:23 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Aug 23, 2018 5:50:23 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.6.Final}
+Aug 23, 2018 5:50:23 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 23, 2018 5:50:23 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Aug 23, 2018 5:50:24 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+Aug 23, 2018 5:50:24 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+Aug 23, 2018 5:50:24 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+Aug 23, 2018 5:50:24 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+SEVERE: Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseController': Unsatisfied dependency expressed through field 'diagnosedDiseaseStore'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4819)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5264)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:939)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1812)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseStore': Unsatisfied dependency expressed through field 'diagnosedDiseaseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 28 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'diagnosedDiseaseService': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 41 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in config.AppConfig: Invocation of init method failed; nested exception is java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 54 more
+Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()[Ljavax/persistence/Index;
+	at org.hibernate.cfg.annotations.EntityBinder.processComplementaryTableDefinitions(EntityBinder.java:936)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:824)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processAnnotatedClassesQueue(Configuration.java:3788)
+	at org.hibernate.cfg.Configuration$MetadataSourceQueue.processMetadata(Configuration.java:3742)
+	at org.hibernate.cfg.Configuration.secondPassCompile(Configuration.java:1410)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1844)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 64 more
+
+Aug 23, 2018 5:50:24 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Aug 23, 2018 5:54:08 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:54:08 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:54:08 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:54:08 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:54:08 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:54:08 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 25 2018 12:17:36 UTC
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.32.0
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1061-aws
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat8
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat8
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat8
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat8
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+Aug 23, 2018 5:54:09 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:54:09 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 973 ms
+Aug 23, 2018 5:54:09 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2018 5:54:09 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:54:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/sadi
+Aug 23, 2018 5:54:10 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Aug 23, 2018 5:54:10 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Thu Aug 23 05:54:10 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:54:10 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class config.AppConfig]
+Aug 23, 2018 5:54:11 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+Aug 23, 2018 5:54:12 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Aug 23, 2018 5:54:12 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.6.Final}
+Aug 23, 2018 5:54:12 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 23, 2018 5:54:12 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Aug 23, 2018 5:54:12 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+Aug 23, 2018 5:54:12 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+Aug 23, 2018 5:54:13 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Aug 23, 2018 5:54:13 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000228: Running hbm2ddl schema update
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000102: Fetching database metadata
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000396: Updating schema
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.diagnoseddisease
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [disease_id, id, visitlog_id]
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_dochwe6ox944s2acdk873lrgv, fk_hndbto5e7l7190h63h1hljce4]
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [diagnoseddisease_pkey]
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.disease
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [typecode, diseasename, id, icd, typename]
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [disease_pkey]
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.drug
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [drugname, id]
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+Aug 23, 2018 5:54:13 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [drug_pkey]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.patient
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [address, gender, dob, name, id]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [patient_pkey]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.prescribeddrug
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [dose, drug_id, quantity, howtouse, id, prescription_id]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_q349eyqbwuvyutgmjtfmdk641, fk_2vi0wxsp58emh8a9bjur3euk]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [prescribeddrug_pkey]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.prescription
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [id, visitlog_id]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_s74x2xfllp3yf88adn9ev1cfr]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [prescription_pkey]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.problem
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [problem, id, visitlog_id]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_otdv39h8j6keugnoio6qiewv6]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [problem_pkey]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.visitlog
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [visittime, patient_id, visitdate, id]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_6p3ns5f43hm1jyypdqpb9xcjj]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [visitlog_pkey]
+Aug 23, 2018 5:54:14 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000232: Schema update complete
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/findbyid/{id}],methods=[GET]}" onto public model.DiagnosedDisease controller.DiagnosedDiseaseController.findDiagnosedDiseaseByID(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/findbyvisitID/{visitID}]}" onto public java.util.List<model.DiagnosedDisease> controller.DiagnosedDiseaseController.getAllDiagnosedDiseasePerVisit(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/{id}],methods=[PUT]}" onto public void controller.DiagnosedDiseaseController.updateDiagnosedDisease(model.DiagnosedDisease,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases],methods=[GET]}" onto public java.util.List<model.DiagnosedDisease> controller.DiagnosedDiseaseController.getAllDiagnosedDisease()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/{id}],methods=[DELETE]}" onto public void controller.DiagnosedDiseaseController.deleteDiagnosedDisease(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs],methods=[POST]}" onto public void controller.DrugController.createNewPatient(model.Drug)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs],methods=[GET]}" onto public java.util.List<model.Drug> controller.DrugController.getAllDrugs()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/findbyid/{id}],methods=[GET]}" onto public model.Drug controller.DrugController.findDrugByID(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/findbyname/{name}],methods=[GET]}" onto public java.util.List<model.Drug> controller.DrugController.findDrugByName(java.lang.String)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/{id}],methods=[DELETE]}" onto public void controller.DrugController.deleteDrug(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/{id}],methods=[PUT]}" onto public void controller.DrugController.updateDrug(model.Drug,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients],methods=[POST]}" onto public void controller.PatientController.createNewPatient(model.Patient)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/{id}],methods=[PUT]}" onto public void controller.PatientController.updatePatient(model.Patient,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients],methods=[GET]}" onto public java.util.List<model.Patient> controller.PatientController.getAllPatients()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/findbyid/{id}],methods=[GET]}" onto public model.Patient controller.PatientController.findPatientByID(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/findbyname/{name}],methods=[GET]}" onto public java.util.List<model.Patient> controller.PatientController.findPatientByName(java.lang.String)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/findbydob/{bd}],methods=[GET]}" onto public java.util.List<model.Patient> controller.PatientController.findPatientByBirthDate(java.lang.String)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/{id}],methods=[DELETE]}" onto public void controller.PatientController.deletePatient(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/findbyprescriptionID/{prescriptionID}]}" onto public java.util.List<model.PrescribedDrug> controller.PrescribedDrugController.getAllDiagnosedDiseasePerVisit(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/{id}],methods=[PUT]}" onto public void controller.PrescribedDrugController.updateDiagnosedDisease(model.PrescribedDrug,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs],methods=[GET]}" onto public java.util.List<model.PrescribedDrug> controller.PrescribedDrugController.getAllDiagnosedDisease()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/{id}],methods=[DELETE]}" onto public void controller.PrescribedDrugController.deleteDiagnosedDisease(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/findbyid/{id}],methods=[GET]}" onto public model.PrescribedDrug controller.PrescribedDrugController.findPrescribedDrugByID(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions],methods=[GET]}" onto public java.util.List<model.Prescription> controller.PrescriptionController.getAllPatients()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugsInPrescription/{id}]}" onto public java.util.List<model.PrescribedDrug> controller.PrescriptionController.getAllPrescribedDrugPerPrescription(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions/findbyid/{id}],methods=[GET]}" onto public model.Prescription controller.PrescriptionController.findPrescriptionByID(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions/{id}],methods=[PUT]}" onto public void controller.PrescriptionController.updatePrescription(model.Prescription,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions/{id}],methods=[DELETE]}" onto public void controller.PrescriptionController.deletePrescription(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems],methods=[GET]}" onto public java.util.List<model.Problem> controller.ProblemController.getAllProblems()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/findbyid/{id}],methods=[GET]}" onto public model.Problem controller.ProblemController.findProblemByID(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/findbyvisitID/{visitID}],methods=[GET]}" onto public java.util.List<model.Problem> controller.ProblemController.getAllProblemsPerVisit(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/{id}],methods=[PUT]}" onto public void controller.ProblemController.updateProblem(model.Problem,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/{id}],methods=[DELETE]}" onto public void controller.ProblemController.deleteProblem(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/reportNumberOfDrugPrescribed],methods=[GET]}" onto public java.util.List<java.lang.Object[]> controller.ReportController.countDrugPrescribed()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/reportNumberOfVisits],methods=[GET]}" onto public java.util.List<java.lang.Object[]> controller.ReportController.countNumberOfPatientVisitsByDate()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/findbyvisitid/{visitID}],methods=[GET]}" onto public model.VisitLog controller.VisitLogController.findVisitLogByID(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/findbypatient/{patientID}],methods=[GET]}" onto public java.util.List<model.VisitLog> controller.VisitLogController.findVisitLogByPatient(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/{visitID}],methods=[DELETE]}" onto public void controller.VisitLogController.deleteVisitLog(int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/editDateTime/{visitID}],methods=[PUT]}" onto public void controller.VisitLogController.updateVisitLogDateTime(model.VisitLog,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/updatePatientByNewPatient/{visitID}],methods=[PUT]}" onto public void controller.VisitLogController.updateVisitLogPatientInfoByNewPatient(model.VisitLog,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/updatePatientByCurrentPatient/{visitID}],methods=[PUT]}" onto public void controller.VisitLogController.updateVisitLogPatientInfoByCurrentPatient(model.VisitLog,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/addProblemForAVisit/{visitID}],methods=[POST]}" onto public void controller.VisitLogController.addProblemForAVisit(model.Problem,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visitsByNewPatient],methods=[POST]}" onto public void controller.VisitLogController.createNewVisitLogWithNewPatient(model.VisitLog)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visitsByCurrentPatient],methods=[POST]}" onto public void controller.VisitLogController.createNewVisitLogWithExistingPatient(model.VisitLog)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits],methods=[GET]}" onto public java.util.List<model.VisitLog> controller.VisitLogController.getAllVisitLogs()
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/findbydate/{date}],methods=[GET]}" onto public java.util.List<model.VisitLog> controller.VisitLogController.findVisitLogByDate(java.lang.String)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/addDiagnosedDiseaseForAVisit/{visitID}],methods=[POST]}" onto public void controller.VisitLogController.addDiagnosedDiseaseForAVisit(model.DiagnosedDisease,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/addPrescriptionDiseaseForAVisit/{visitID}],methods=[POST]}" onto public void controller.VisitLogController.addPrescriptionForAVisit(model.Prescription,int)
+Aug 23, 2018 5:54:15 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Aug 23 05:54:10 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:54:15 AM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@5892fd49] of Hibernate SessionFactory for HibernateTransactionManager
+Aug 23, 2018 5:54:15 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 5486 ms
+Aug 23, 2018 5:55:53 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [97,508] milliseconds.
+Aug 23, 2018 5:55:53 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization started
+Aug 23, 2018 5:55:53 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Aug 23 05:55:53 UTC 2018]; parent: Root WebApplicationContext
+Aug 23, 2018 5:55:53 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization completed in 108 ms
+Aug 23, 2018 5:55:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/lib/tomcat8/webapps/sadi has finished in 103,920 ms
+Aug 23, 2018 5:55:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/ROOT
+Aug 23, 2018 5:55:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /var/lib/tomcat8/webapps/ROOT has finished in 38 ms
+Aug 23, 2018 5:55:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:55:53 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 104051 ms
+Hibernate: select visitlog0_.id as id1_7_, visitlog0_.patient_id as patient_4_7_, visitlog0_.visitDate as visitDat2_7_, visitlog0_.visitTime as visitTim3_7_ from visitLog visitlog0_
+Hibernate: select patient0_.id as id1_3_, patient0_.address as address2_3_, patient0_.dob as dob3_3_, patient0_.gender as gender4_3_, patient0_.name as name5_3_ from patient patient0_
+Aug 23, 2018 5:55:54 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 0, SQLState: 42501
+Aug 23, 2018 5:55:54 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: ERROR: permission denied for relation patient
+Aug 23, 2018 5:55:54 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 0, SQLState: 42501
+Aug 23, 2018 5:55:54 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: ERROR: permission denied for relation visitlog
+Hibernate: select visitlog0_.id as id1_7_, visitlog0_.patient_id as patient_4_7_, visitlog0_.visitDate as visitDat2_7_, visitlog0_.visitTime as visitTim3_7_ from visitLog visitlog0_
+Aug 23, 2018 5:55:54 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 0, SQLState: 42501
+Aug 23, 2018 5:55:54 AM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: ERROR: permission denied for relation visitlog
+Aug 23, 2018 5:58:33 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:58:33 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 23, 2018 5:58:33 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Aug 23 05:55:53 UTC 2018]; parent: Root WebApplicationContext
+Aug 23, 2018 5:58:33 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Thu Aug 23 05:54:10 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:58:33 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+WARNING: The web application [sadi] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Aug 23, 2018 5:58:33 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:58:33 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:58:33 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:58:33 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/common], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:58:33 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:58:33 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/server], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:58:33 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared/classes], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:58:33 AM org.apache.catalina.startup.ClassLoaderFactory validateFile
+WARNING: Problem with directory [/usr/share/tomcat8/shared], exists: [false], isDirectory: [false], canRead: [false]
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 25 2018 12:17:36 UTC
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.32.0
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            4.4.0-1061-aws
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_181-8u181-b13-0ubuntu0.16.04.1-b13
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /var/lib/tomcat8
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /usr/share/tomcat8
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat8/conf/logging.properties
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.awt.headless=true
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx128m
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -XX:+UseConcMarkSweepGC
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/usr/share/tomcat8/endorsed
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/var/lib/tomcat8
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/usr/share/tomcat8
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/tmp/tomcat8-tomcat8-tmp
+Aug 23, 2018 5:58:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Aug 23, 2018 5:58:34 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 971 ms
+Aug 23, 2018 5:58:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 23, 2018 5:58:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.32 (Ubuntu)
+Aug 23, 2018 5:58:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /var/lib/tomcat8/webapps/sadi
+Aug 23, 2018 5:58:35 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Aug 23, 2018 5:58:35 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Thu Aug 23 05:58:35 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:58:35 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class config.AppConfig]
+Aug 23, 2018 5:58:36 AM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: org.postgresql.Driver
+Aug 23, 2018 5:58:36 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Aug 23, 2018 5:58:37 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.6.Final}
+Aug 23, 2018 5:58:37 AM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 23, 2018 5:58:37 AM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Aug 23, 2018 5:58:37 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+Aug 23, 2018 5:58:37 AM org.hibernate.engine.jdbc.internal.LobCreatorBuilder useContextualLobCreation
+INFO: HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+Aug 23, 2018 5:58:38 AM org.hibernate.engine.transaction.internal.TransactionFactoryInitiator initiateService
+INFO: HHH000399: Using default transaction strategy (direct JDBC transactions)
+Aug 23, 2018 5:58:38 AM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000228: Running hbm2ddl schema update
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000102: Fetching database metadata
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000396: Updating schema
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.diagnoseddisease
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [disease_id, id, visitlog_id]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_dochwe6ox944s2acdk873lrgv, fk_hndbto5e7l7190h63h1hljce4]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [diagnoseddisease_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.disease
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [typecode, diseasename, id, icd, typename]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [disease_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.drug
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [drugname, id]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [drug_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.patient
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [address, gender, dob, name, id]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: []
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [patient_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.prescribeddrug
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [dose, drug_id, quantity, howtouse, id, prescription_id]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_q349eyqbwuvyutgmjtfmdk641, fk_2vi0wxsp58emh8a9bjur3euk]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [prescribeddrug_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.prescription
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [id, visitlog_id]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_s74x2xfllp3yf88adn9ev1cfr]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [prescription_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.problem
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [problem, id, visitlog_id]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_otdv39h8j6keugnoio6qiewv6]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [problem_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000261: Table found: public.visitlog
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000037: Columns: [visittime, patient_id, visitdate, id]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000108: Foreign keys: [fk_6p3ns5f43hm1jyypdqpb9xcjj]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.TableMetadata <init>
+INFO: HHH000126: Indexes: [visitlog_pkey]
+Aug 23, 2018 5:58:38 AM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: HHH000232: Schema update complete
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases],methods=[GET]}" onto public java.util.List<model.DiagnosedDisease> controller.DiagnosedDiseaseController.getAllDiagnosedDisease()
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/findbyid/{id}],methods=[GET]}" onto public model.DiagnosedDisease controller.DiagnosedDiseaseController.findDiagnosedDiseaseByID(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/findbyvisitID/{visitID}]}" onto public java.util.List<model.DiagnosedDisease> controller.DiagnosedDiseaseController.getAllDiagnosedDiseasePerVisit(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/{id}],methods=[PUT]}" onto public void controller.DiagnosedDiseaseController.updateDiagnosedDisease(model.DiagnosedDisease,int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/diagnosedDiseases/{id}],methods=[DELETE]}" onto public void controller.DiagnosedDiseaseController.deleteDiagnosedDisease(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs],methods=[POST]}" onto public void controller.DrugController.createNewPatient(model.Drug)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs],methods=[GET]}" onto public java.util.List<model.Drug> controller.DrugController.getAllDrugs()
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/findbyid/{id}],methods=[GET]}" onto public model.Drug controller.DrugController.findDrugByID(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/findbyname/{name}],methods=[GET]}" onto public java.util.List<model.Drug> controller.DrugController.findDrugByName(java.lang.String)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/{id}],methods=[DELETE]}" onto public void controller.DrugController.deleteDrug(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/drugs/{id}],methods=[PUT]}" onto public void controller.DrugController.updateDrug(model.Drug,int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/findbydob/{bd}],methods=[GET]}" onto public java.util.List<model.Patient> controller.PatientController.findPatientByBirthDate(java.lang.String)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/{id}],methods=[PUT]}" onto public void controller.PatientController.updatePatient(model.Patient,int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients],methods=[POST]}" onto public void controller.PatientController.createNewPatient(model.Patient)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/findbyname/{name}],methods=[GET]}" onto public java.util.List<model.Patient> controller.PatientController.findPatientByName(java.lang.String)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients],methods=[GET]}" onto public java.util.List<model.Patient> controller.PatientController.getAllPatients()
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/findbyid/{id}],methods=[GET]}" onto public model.Patient controller.PatientController.findPatientByID(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/patients/{id}],methods=[DELETE]}" onto public void controller.PatientController.deletePatient(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/findbyid/{id}],methods=[GET]}" onto public model.PrescribedDrug controller.PrescribedDrugController.findPrescribedDrugByID(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs],methods=[GET]}" onto public java.util.List<model.PrescribedDrug> controller.PrescribedDrugController.getAllDiagnosedDisease()
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/findbyprescriptionID/{prescriptionID}]}" onto public java.util.List<model.PrescribedDrug> controller.PrescribedDrugController.getAllDiagnosedDiseasePerVisit(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/{id}],methods=[PUT]}" onto public void controller.PrescribedDrugController.updateDiagnosedDisease(model.PrescribedDrug,int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugs/{id}],methods=[DELETE]}" onto public void controller.PrescribedDrugController.deleteDiagnosedDisease(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescribedDrugsInPrescription/{id}]}" onto public java.util.List<model.PrescribedDrug> controller.PrescriptionController.getAllPrescribedDrugPerPrescription(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions],methods=[GET]}" onto public java.util.List<model.Prescription> controller.PrescriptionController.getAllPatients()
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions/findbyid/{id}],methods=[GET]}" onto public model.Prescription controller.PrescriptionController.findPrescriptionByID(int)
+Aug 23, 2018 5:58:39 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions/{id}],methods=[PUT]}" onto public void controller.PrescriptionController.updatePrescription(model.Prescription,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/prescriptions/{id}],methods=[DELETE]}" onto public void controller.PrescriptionController.deletePrescription(int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems],methods=[GET]}" onto public java.util.List<model.Problem> controller.ProblemController.getAllProblems()
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/findbyid/{id}],methods=[GET]}" onto public model.Problem controller.ProblemController.findProblemByID(int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/findbyvisitID/{visitID}],methods=[GET]}" onto public java.util.List<model.Problem> controller.ProblemController.getAllProblemsPerVisit(int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/{id}],methods=[PUT]}" onto public void controller.ProblemController.updateProblem(model.Problem,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/problems/{id}],methods=[DELETE]}" onto public void controller.ProblemController.deleteProblem(int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/reportNumberOfVisits],methods=[GET]}" onto public java.util.List<java.lang.Object[]> controller.ReportController.countNumberOfPatientVisitsByDate()
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/reportNumberOfDrugPrescribed],methods=[GET]}" onto public java.util.List<java.lang.Object[]> controller.ReportController.countDrugPrescribed()
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visitsByNewPatient],methods=[POST]}" onto public void controller.VisitLogController.createNewVisitLogWithNewPatient(model.VisitLog)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visitsByCurrentPatient],methods=[POST]}" onto public void controller.VisitLogController.createNewVisitLogWithExistingPatient(model.VisitLog)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits],methods=[GET]}" onto public java.util.List<model.VisitLog> controller.VisitLogController.getAllVisitLogs()
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/findbydate/{date}],methods=[GET]}" onto public java.util.List<model.VisitLog> controller.VisitLogController.findVisitLogByDate(java.lang.String)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/findbyvisitid/{visitID}],methods=[GET]}" onto public model.VisitLog controller.VisitLogController.findVisitLogByID(int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/findbypatient/{patientID}],methods=[GET]}" onto public java.util.List<model.VisitLog> controller.VisitLogController.findVisitLogByPatient(int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/{visitID}],methods=[DELETE]}" onto public void controller.VisitLogController.deleteVisitLog(int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/editDateTime/{visitID}],methods=[PUT]}" onto public void controller.VisitLogController.updateVisitLogDateTime(model.VisitLog,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/updatePatientByNewPatient/{visitID}],methods=[PUT]}" onto public void controller.VisitLogController.updateVisitLogPatientInfoByNewPatient(model.VisitLog,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/updatePatientByCurrentPatient/{visitID}],methods=[PUT]}" onto public void controller.VisitLogController.updateVisitLogPatientInfoByCurrentPatient(model.VisitLog,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/addProblemForAVisit/{visitID}],methods=[POST]}" onto public void controller.VisitLogController.addProblemForAVisit(model.Problem,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/addDiagnosedDiseaseForAVisit/{visitID}],methods=[POST]}" onto public void controller.VisitLogController.addDiagnosedDiseaseForAVisit(model.DiagnosedDisease,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/visits/addPrescriptionDiseaseForAVisit/{visitID}],methods=[POST]}" onto public void controller.VisitLogController.addPrescriptionForAVisit(model.Prescription,int)
+Aug 23, 2018 5:58:40 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Aug 23 05:58:35 UTC 2018]; root of context hierarchy
+Aug 23, 2018 5:58:40 AM org.springframework.orm.hibernate4.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@5892fd49] of Hibernate SessionFactory for HibernateTransactionManager
+Aug 23, 2018 5:58:40 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 5347 ms
